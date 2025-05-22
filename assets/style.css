@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #e4e4e4;
+    font-family: Arial, sans-serif;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px 100px ;
+    color: #e4e4e4;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+ 
+}
+.logo {
+    height: 80px; /* altura */
+    width: 300px; /* largura */
+    display: flex; /* em linha */
+    align-items: center; /* align vertical */
+}
+.logo img {
+    height:80px; /* altura */
+    margin-right: 20px;
+}
+.logo h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    color: #e4e4e4;
+}
+
+/* ---------- MENU ---------- */
+
+.menu {
+    width: 700px;
+}
+.menu ul {
+    display: flex;
+}
+/* ESPECIFICIDADE */
+.menu ul li a{
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    color: yellow;
+}
+/* -------- SEÇÃO HOME ------ */
+.linha_home {
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border: 1px solid black;
+    width: 1200px;
+    height: 100%;
+    padding-top: 110px;
+}
+.linha {
+    width: 100%;
+    height: 100vh;
+    background-color: #e4e4e4;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+/* -------- RODAPÉ --- */
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e4e4e4;
+}
+.col_rodape {
+    width: 400px;
+    height: 100%;
+    border: 1px solid white;
+}
